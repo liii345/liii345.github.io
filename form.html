@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@600&family=Poppins:ital,wght@0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
+</head>
+<body class="body2">
+  <section class="container">
+    <header>Form Pendaftaran SMP Assalaam Bandung</header>
+    <form action="#" class="form1">
+      <div class="input-box">
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="Masukkan Nama Lengkap" required>
+      </div>
+      <div class="input-box">
+        <label>Email Siswa</label>
+        <input type="text" placeholder="Masukkan Email" required>
+      </div>
+      <div class="column">
+        <div class="input-box">
+          <label>No.Telp</label>
+          <input type="number" placeholder="Masukkan Nomor Telepon" required>
+        </div>
+        <div class="input-box">
+          <label>Tanggal Lahir</label>
+          <input type="date" placeholder="Masukkan Tanggal Lahir" required>
+        </div>
+      </div>
+      <div class="jk">
+        <h3>Jenis Kelamin</h3>
+        <div class="jk-option">
+          <div class="gdr">
+            <input type="radio" id="laki-laki" name="jk" checked>
+            <label for="laki-laki">Laki-laki</label>
+          </div>
+          <div class="gdr">
+            <input type="radio" id="perempuan" name="jk" checked>
+            <label for="perempuan">Perempuan</label>
+          </div>
+        </div>
+      </div>
+      <div class="input-box alamat">
+        <label>Alamat</label>
+        <input type="text" placeholder="Masukkan Nama Jalan" required>
+        <input type="text" placeholder="Masukkan Kecamatan" required>
+        <div class="column">
+          <div class="select-box">
+            <select>
+              <option hidden>Kabupaten/Kota</option>
+              <option>Kabupaten Bandung</option>
+              <option>Kota Bandung</option>
+              <option>Kota Bogor</option>
+              <option>Kota depok</option>
+              <option>Kota Tasikmalaya</option>
+            </select>
+          </div>
+          <input type="text" placeholder="Masukkan Kode Pos" required>
+        </div>
+          <div class="column">
+            <input type="text" placeholder="Masukkan Nama Kelurahan">
+            <input type="number" placeholder="Masukkan Kode Pos">
+          </div>
+      </div>
+      <button type="submit">Next</button>
+    </form>
+  </section>
+  
+</body>
+</html>
